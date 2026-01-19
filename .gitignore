@@ -1,0 +1,72 @@
+# Build directory
+build/
+
+# Claude directory
+.claude/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+*.cmake
+
+# Compiled binaries
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Qt specific
+moc_*.cpp
+*.moc
+ui_*.h
+qrc_*.cpp
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.creator.user
+*.creator.user.*
+
+# macOS
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Linux
+*.swp
+*.swo
+*~
+core
+
+# Windows
+Thumbs.db
+*.obj
+*.pdb
+*.ilk
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+
+# Protocol buffer generated files (if not in version control)
+*.pb.cc
+*.pb.h

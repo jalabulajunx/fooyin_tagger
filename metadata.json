@@ -1,0 +1,11 @@
+{
+    "Name": "Audio Tagger",
+    "Version": "0.1.0",
+    "CompatVersion": "0.1.0",
+    "Author": "Fooyin Contributors",
+    "Copyright": "2025",
+    "License": "GPL-3.0",
+    "Description": "Fetch and apply audio metadata from Wikipedia and MusicBrainz",
+    "Url": "https://github.com/fooyin/fooyin-tagger",
+    "Category": "Tools"
+}

@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.16)
+
+project(test_wiki_parser LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+find_package(Qt6 REQUIRED COMPONENTS Core)
+
+add_executable(test_wiki_parser
+    test_wiki_parser.cpp
+)
+
+target_link_libraries(test_wiki_parser PRIVATE Qt6::Core)

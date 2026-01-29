@@ -4,7 +4,7 @@ project(
     fooyin-tagger
     VERSION 0.1.0
     DESCRIPTION "Audio Tagger Plugin for Fooyin - Wikipedia and MusicBrainz metadata lookup"
-    HOMEPAGE_URL "https://github.com/fooyin/fooyin-tagger"
+    HOMEPAGE_URL "https://github.com/jalabulajunx/fooyin_tagger"
     LANGUAGES CXX
 )
 
@@ -72,6 +72,9 @@ create_fooyin_plugin(
     DEPENDS Fooyin::Core Fooyin::Gui Fooyin::Utils Qt6::Widgets Qt6::Network
     SOURCES ${SOURCES}
 )
+
+# Set custom output name
+set_target_properties(fooyin-tagger PROPERTIES OUTPUT_NAME "fooyin_taggerplugin")
 
 # Link TagLib
 target_link_libraries(fooyin-tagger PRIVATE TagLib::tag)

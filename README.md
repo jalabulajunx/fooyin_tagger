@@ -5,6 +5,11 @@
 ## Overview
 fooyin_tagger is an extension for the fooyin music player that provides automatic metadata tagging capabilities using online music databases. It supports fetching and updating metadata for your music library, including track names, artists, album information, and more.
 
+<img width="1314" height="840" alt="image" src="https://github.com/user-attachments/assets/18d7f2b3-871e-487f-92c5-1e6e9d17d735" />
+
+<img width="1695" height="953" alt="image" src="https://github.com/user-attachments/assets/a213ce25-c7c0-4bf6-a3c4-54c42e9adc24" />
+
+
 ## Features
 
 ### Track Matching Override
